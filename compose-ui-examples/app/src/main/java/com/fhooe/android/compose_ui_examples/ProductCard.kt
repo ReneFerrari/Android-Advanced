@@ -23,8 +23,6 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.fhooe.android.compose_ui_examples.ui.theme.Colors
-import com.fhooe.android.compose_ui_examples.ui.theme.TextStyles
 
 //https://www.figma.com/design/k2lSw9VFAhPeI92E0kuf5L/Ulmo-E-Commerce-UI-kit--Community-?node-id=77-105&t=YeazOMeEIx334YD7-0
 @Composable

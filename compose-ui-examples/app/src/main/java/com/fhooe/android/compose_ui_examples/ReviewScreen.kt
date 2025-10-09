@@ -31,8 +31,6 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.fhooe.android.compose_ui_examples.ui.theme.Colors
-import com.fhooe.android.compose_ui_examples.ui.theme.TextStyles
 import kotlinx.coroutines.launch
 
 
@@ -96,7 +94,7 @@ fun SimpleSearchBarSample() {
                     Text(
                     "Search",
                         color = Colors.Giratina500,
-                        style = TextStyles.bodyOne
+                        style = TextStyles.bodyOneRegular
                 ) },
                 leadingIcon = {
                     if (searchBarState.currentValue == SearchBarValue.Expanded) {

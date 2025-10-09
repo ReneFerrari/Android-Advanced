@@ -30,8 +30,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.fhooe.android.compose_ui_examples.ui.theme.Colors
-import com.fhooe.android.compose_ui_examples.ui.theme.TextStyles
 
 
 //UI: https://www.figma.com/design/k2lSw9VFAhPeI92E0kuf5L/Ulmo-E-Commerce-UI-kit--Community-?node-id=127-22&m=dev
@@ -102,7 +100,7 @@ fun CategoryCell() = Surface {
     ) {
         Text(
             text = "Cell",
-            style = TextStyles.bodyOne
+            style = TextStyles.bodyOneRegular
         )
         Spacer(modifier = Modifier.weight(1f))
         CircularCheckbox(
