@@ -14,4 +14,5 @@ object Colors {
     val Black =  Color(0xFF212121)
     val Charizard400 = Color(0xFFFEE440)
     val Giratina100 = Color(0xFFF5F5F5)
+    val Giratina500 = Color(0xFF9E9E9E)
 }

@@ -34,4 +34,19 @@ object TextStyles {
         color = Color(0xFF212121),
         textAlign = TextAlign.Center,
     )
+
+    val bodyTwoMedium = TextStyle(
+        fontSize = 14.sp,
+        fontFamily = poppinsFamily,
+        fontWeight = FontWeight(400),
+        color = Color(0xFF212121)
+    )
+
+    val bodyThreeRegular = TextStyle(
+        fontSize = 12.sp,
+        lineHeight = 16.sp,
+        fontFamily = poppinsFamily,
+        fontWeight = FontWeight(400),
+        color = Color(0xFF9E9E9E),
+    )
 }
