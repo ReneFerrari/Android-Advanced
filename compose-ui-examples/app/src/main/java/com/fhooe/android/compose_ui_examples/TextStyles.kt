@@ -24,6 +24,22 @@ object TextStyles {
         color = Color(0xFF212121),
     )
 
+    val bodyTwoRegular = TextStyle(
+        fontSize = 14.sp,
+        fontFamily = poppinsFamily,
+        fontWeight = FontWeight(400),
+        color = Color(0xFF9E9E9E),
+    )
+
+    val headingTwoSemibold = TextStyle(
+        fontSize = 24.sp,
+        lineHeight = 32.sp,
+        fontFamily = poppinsFamily,
+        fontWeight = FontWeight(600),
+        color = Color(0xFF212121),
+
+        )
+
     val bodyTwoMedium = TextStyle(
         fontSize = 14.sp,
         fontFamily = poppinsFamily,
@@ -35,7 +51,7 @@ object TextStyles {
         fontSize = 16.sp,
         lineHeight = 24.sp,
         fontFamily = poppinsFamily,
-        fontWeight = FontWeight(400),
+        fontWeight = FontWeight.Medium,
         color = Color(0xFF212121),
     )
 

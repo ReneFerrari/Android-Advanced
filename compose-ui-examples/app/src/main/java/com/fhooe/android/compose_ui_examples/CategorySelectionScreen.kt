@@ -90,7 +90,7 @@ fun CategorySelectionScreen() {
 }
 
 @Composable
-fun CategoryCell() = Surface {
+private fun CategoryCell() = Surface {
     Row(
         modifier = Modifier
             .padding(horizontal = 16.dp)
@@ -111,7 +111,7 @@ fun CategoryCell() = Surface {
 }
 
 @Composable
-fun CircularCheckbox(
+private fun CircularCheckbox(
     checked: Boolean,
     onCheckedChange: (Boolean) -> Unit,
     modifier: Modifier = Modifier
@@ -136,7 +136,7 @@ fun CircularCheckbox(
 }
 
 @Composable
-fun ComponentButton(
+private fun ComponentButton(
     modifier: Modifier = Modifier,
     text: String,
     onClick: () -> Unit
@@ -167,7 +167,7 @@ fun ComponentButtonPreview() {
 
 @Preview
 @Composable
-fun CategoryCellPreview() {
+private fun CategoryCellPreview() {
     CategoryCell()
 }
 
